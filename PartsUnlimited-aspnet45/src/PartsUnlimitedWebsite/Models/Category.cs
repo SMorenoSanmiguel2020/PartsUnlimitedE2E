@@ -5,7 +5,9 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
+
         //Cambio release branch
+
         public int CategoryId { get; set; }
 
         [Required]
