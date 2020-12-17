@@ -5,7 +5,10 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
-        // Tercer cambio activo
+
+
+        //Nuevo cambio release branch 2
+
 
         public int CategoryId { get; set; }
 
@@ -17,5 +20,6 @@ namespace PartsUnlimited.Models
         public string ImageUrl { get; set; }
 
         public List<Product> Products { get; set; }
+        // New change
     }
 }
